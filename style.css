@@ -53,3 +53,56 @@ header .logo {
 header .logo .text-logo {
   color: red;
 }
+
+/* Header */
+.hero {
+  background: url('./images/home/showcase2.jpeg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+  /* 
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    height: 100%;
+    padding: 0 20px;
+    margin-left: 100px;
+  */
+}
+
+.hero .content h1 {
+  font-size: 55px;
+}
+
+.hero .content p {
+  font-size: 23px;
+  max-width: 600px;
+  margin: 20px 0 30px;
+}
+
+.hero .content .btn {
+  padding: 10px 30px;
+  color: #fff;
+  background-color: green;
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.hero .content .btn:hover {
+  opacity: 0.9;
+}
