@@ -43,7 +43,7 @@ header .navbar ul li a {
 }
 
 header .navbar ul li a:hover {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #62bfea;
 }
 header .logo {
   color: #fff;
@@ -51,7 +51,7 @@ header .logo {
 }
 
 header .logo .text-logo {
-  color: red;
+  color: #62bfea;
 }
 
 /* Header */
@@ -65,34 +65,20 @@ header .logo .text-logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
   height: 100%;
   padding: 0 20px;
-  /* 
-  display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: left;
-    height: 100%;
-    padding: 0 20px;
-    margin-left: 100px;
-  */
+  margin-left: 100px;
 }
 
 .hero .content h1 {
-  font-size: 55px;
-}
-
-.hero .content p {
-  font-size: 23px;
-  max-width: 600px;
-  margin: 20px 0 30px;
+  font-size: 80px;
+  max-width: 620px;
 }
 
 .hero .content .btn {
-  padding: 10px 30px;
+  /* padding: 10px 30px;
   color: #fff;
   background-color: green;
   padding: 20px 40px;
@@ -100,7 +86,20 @@ header .logo .text-logo {
   border: none;
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
+  display: inline-block; */
+
+  height: 50px;
+  width: 339px;
+  border: 1px solid #62bfea;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  background: #62bfea;
+  margin-top: 31px;
+  border-radius: 5px;
+  font-size: 17px;
 }
 
 .hero .content .btn:hover {
